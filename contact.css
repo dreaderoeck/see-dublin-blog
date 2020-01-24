@@ -29,14 +29,29 @@ header {
 background-color: #F23E2E !important;
 }
 a.nav-link{
-  color: #fff !important;
+  color: #8DDAEB !important;
 }
 a.nav-link:hover{
   color: blue !important;
 }
 .navbar-dark .navbar-brand {
-  color: #fff;
+  color: #FF4D7E;
   font-size: 2em;
+  font-family: 'Pacifico', cursive;
+}
+
+
+.btn{
+    background-color: #F44336; 
+  border: none;
+  color:#8DDAEB;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
   font-family: 'Pacifico', cursive;
 }
   footer {
