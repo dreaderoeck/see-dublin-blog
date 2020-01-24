@@ -1,0 +1,171 @@
+/*
+colours for site
+#F29BAB = Pink
+#A44EA6 = Purple
+#0FBFBF = Tile
+#F2A81D = Light Orange
+#F23E2E = Burnt Orange
+*/
+/*head section and nav styling*/
+ .container-fluid {
+  font-size: 18px;
+  background-color: #F29BAB;
+} 
+  
+body{
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 18px; 
+  background-color: #F29BAB;
+} 
+
+h1{
+  color:  #A44EA6;
+  font-size: 11vmin;
+  font-family: 'Pacifico', cursive;
+  padding: 30px;
+  text-align: center;
+}
+p{
+  line-height: 1.8;
+}
+header {
+  font-family: 'Allerta Stencil', sans-serif; 
+}
+/*colours overwritten on nav*/
+.bg-dark{
+background-color:rgb(242,62,46) !important;
+}
+a.nav-link{
+  color:#8DDAEB !important;
+}
+a.nav-link:hover{
+  color: blue !important;
+  cursor: pointer;
+}
+.navbar-dark .navbar-brand {
+  color: #FF79EB;
+  font-size: 2em;
+  font-family: 'Pacifico', cursive;
+}
+
+footer {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Allerta Stencil';
+  background-color: #A44EA6;
+}
+footer nav {
+ display: flex;
+}
+/*Icon styling*/
+.icon-link {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 25px;
+ width: 50px;
+ height: 50px;
+ margin: 5px 2px;
+ border-radius: 50%;
+}
+.icon-link:hover {
+ text-decoration: none;
+ opacity: 0.7;
+}
+.icon-link i {
+ color: white;
+}
+.facebook {
+ background: #3B5998;
+}
+.twitter {
+ background: #55ACEE;
+}
+.instagram {
+ background:#FF4D7E;
+}
+
+
+
+.row {
+  border-style: dashed;
+  border-width: 10px;
+  padding: 10px;
+  border-color: #F23E2E;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%; 
+}
+
+
+main {
+  font-family: 'Allerta Stencil';
+  background-color: #F29BAB;
+  text-align: center;
+  border-style: dashed;
+  border-width: 10px;
+  padding: 10px;
+  border-color: #F23E2E;
+ 
+  
+}
+
+main img {
+  width: 400px;
+  height: 400px;
+}
+
+.card-img-top{
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+  }
+
+
+.card {
+  background-color: #F2A81D;
+  color: blue;
+  font-family: 'Allerta Stencil', sans-serif;
+  text-align: center;
+}
+
+.card h5 {
+  font-size: 30px;
+  color: #F23E2E;
+  font-family: 'Pacifico', cursive;
+}
+
+.btn {
+  background-color: #f44336; 
+  border: none;
+  color:#8DDAEB;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: 'Pacifico', cursive;
+}
+
+.carousel-caption {
+  top: 0 !important;
+}
+
+
+
+.carousel-caption h1{
+  color:  #F23E2E !important ;
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 15vw;
+  border-style: dashed;
+  border-width: 10px;
+  padding: 10px;
+  border-color: #F2A81D;
+ 
+}
