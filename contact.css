@@ -35,11 +35,10 @@ a.nav-link:hover{
   color: blue !important;
 }
 .navbar-dark .navbar-brand {
-  color: #FF4D7E;
+  color: #FF79EB;
   font-size: 2em;
   font-family: 'Pacifico', cursive;
 }
-
 
 .btn{
     background-color: #F44336; 
@@ -92,7 +91,6 @@ a.nav-link:hover{
     background:#FF4D7E;
   }
 
-<style type="text/css">
 .form-style-6{
 	font: 95% Arial, Helvetica, sans-serif;
 	max-width: 400px;
