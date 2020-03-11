@@ -1,152 +1,150 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
 
-body{
-    font-family: 'Open Sans', sans-serif; 
-    font-size: 18px; 
-  }
-  
-  h1{
-    color: rgb(242,168,29);
-    font-size: 11vmin;
-    font-family: 'Pacifico', cursive;
-  }
-  
-  p{
-    line-height: 1.8;
-  }
-  
-  header {
-    font-family: 'Allerta Stencil', sans-serif; 
-  }
-  
-  /*colours overwritten on nav*/
-  .bg-dark{
-  background-color:rgb(242,62,46) !important;
-  }
-  
-  a.nav-link{
-    color: #8DDAEB !important;
-   font-family: 'Pacifico', cursive;
-  }
-  
-  a.nav-link:hover{
-    color: blue !important;
-    cursor: pointer;
-  }
- 
-  .navbar-dark .navbar-brand {
-    color: #FF79EB;
-    font-size: 2em;
-    font-family: 'Pacifico', cursive;
-  }
+h1 {
+  color: rgb(242, 168, 29);
+  font-size: 11vmin;
+  font-family: "Pacifico", cursive;
+}
 
-  .btn{
-    background-color: #F44336; 
-    border: none;
-    color:#8DDAEB;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    margin: 4px 2px;
-    cursor: pointer;
-    font-family: 'Pacifico', cursive;
+p {
+  line-height: 1.8;
+}
 
-  }
-  
-  /*Welcome Section*/
-  .top-space{
-    padding-top: 2%;
-    padding-bottom: 2%;
-  }
-  
-  .orange-smile{
-    color: rgb(242,168,29);
-  }
+header {
+  font-family: "Allerta Stencil", sans-serif;
+}
 
-  .sub-heading{
-      font-size: 24px;
-  }
+/*colours overwritten on nav*/
+.bg-dark {
+  background-color: rgb(242, 62, 46) !important;
+}
 
-  #slider-wrapper{
-    background-color:rgb(15,191,191);
-  }
+a.nav-link {
+  color: rgb(255, 255, 255) !important;
+  font-family: "Pacifico", cursive;
+}
 
-  #second-slider-wrapper{
-    background-color:rgb(242,168,29);
-  }
+a.nav-link:hover {
+  color: blue !important;
+  cursor: pointer;
+}
+
+.navbar-dark .navbar-brand {
+  color: #ff79eb;
+  font-size: 2em;
+  font-family: "Pacifico", cursive;
+}
+
+.btn {
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: #f23e2e !important;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: "Pacifico", cursive;
+}
+
+/*Welcome Section*/
+.top-space {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.orange-smile {
+  color: rgb(242, 168, 29);
+}
+
+.sub-heading {
+  font-size: 24px;
+}
+
+#slider-wrapper {
+  background-color: rgb(15, 191, 191);
+}
+
+#second-slider-wrapper {
+  background-color: rgb(242, 168, 29);
+}
 
 /*Slider Styling*/
-.slider-header{
- font-family: 'Pacifico', cursive;
-    font-size: 36px;
-    color: rgb(255,255,255);
-    text-align: center;
-    line-height: 1.5; 
-    padding-bottom: 10px;
+.slider-header {
+  font-family: "Pacifico", cursive;
+  font-size: 36px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  line-height: 1.5;
+  padding-bottom: 10px;
 }
 
 .slider-item {
   padding: 10px;
 }
 
-.card{
+.card {
   border: 0;
 }
-.card-img{
+.card-img {
   height: 200px;
   background-position: center;
   background-size: cover;
 }
- .card-title{
- font-size: 20px;
- font-family: 'Pacifico', cursive;
- color: rgb(15,191,191);
-} 
-
-.card-title-second{
- font-size: 20px;
- font-family: 'Pacifico', cursive;
- color:rgb(242,168,29);
+.card-title {
+  font-size: 20px;
+  font-family: "Pacifico", cursive;
+  color: rgb(15, 191, 191);
 }
 
- .card-text{
+.card-title-second {
+  font-size: 20px;
+  font-family: "Pacifico", cursive;
+  color: rgb(242, 168, 29);
+}
+
+.card-text {
   font-size: 13px;
-  color: rgb(105,105,105);
-} 
-
-.btn-container{
- padding-top: 18px;
+  color: rgb(105, 105, 105);
 }
 
-a.btn-for-cards{
-  background-color:rgb(242,62,46);
-  color: rgb(255,255,255);
+.btn-container {
+  padding-top: 18px;
+}
+
+a.btn-for-cards {
+  background-color: rgb(242, 62, 46);
+  color: rgb(255, 255, 255);
   text-decoration: none;
-  font-family: 'Allerta Stencil', sans-serif;
+  font-family: "Allerta Stencil", sans-serif;
   padding: 6px;
   border-radius: 5px;
 }
 
-a.btn-for-cards:hover{
-  background-color:rgb(255,255,255);
-  color: rgb(242,62,46);
-  border: 3px dashed  rgb(242,62,46);
+a.btn-for-cards:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(242, 62, 46);
+  border: 3px dashed rgb(242, 62, 46);
 }
 
-a.btn-for-cards-second{
-  background-color:rgb(164,78,166);
-  color: rgb(255,255,255);
+a.btn-for-cards-second {
+  background-color: rgb(164, 78, 166);
+  color: rgb(255, 255, 255);
   text-decoration: none;
-  font-family: 'Allerta Stencil', sans-serif;
+  font-family: "Allerta Stencil", sans-serif;
   padding: 6px;
   border-radius: 5px;
 }
 
-a.btn-for-cards-second:hover{
-  background-color:rgb(255,255,255);
-  color: rgb(164,78,166);
-  border: 3px dashed  rgb(164,78,166);
+a.btn-for-cards-second:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(164, 78, 166);
+  border: 3px dashed rgb(164, 78, 166);
 }
 
 /*sight-viewed section*/
@@ -154,29 +152,29 @@ a.btn-for-cards-second:hover{
 .sight-header {
   font-size: 8vmin;
   text-align: center;
-  font-family: 'Pacifico', cursive;
-  color: rgb(15,191,191);
+  font-family: "Pacifico", cursive;
+  color: rgb(15, 191, 191);
   line-height: 1.4;
 }
 
-.sight-header-two{
+.sight-header-two {
   font-size: 9vmin;
-  font-family: 'Pacifico', cursive;
-  color: rgb(242,62,46);
+  font-family: "Pacifico", cursive;
+  color: rgb(242, 62, 46);
   line-height: 1.4;
 }
 
-.sight-subheader{
+.sight-subheader {
   font-size: 5vmin;
-  font-family: 'Pacifico', cursive;
-  color: rgb(15,191,191);
+  font-family: "Pacifico", cursive;
+  color: rgb(15, 191, 191);
 }
 
-.subhead{
+.subhead {
   font-size: 5vmin;
   text-align: center;
-  font-family: 'Pacifico', cursive;
-  color: rgb(15,191,191);
+  font-family: "Pacifico", cursive;
+  color: rgb(15, 191, 191);
   line-height: 1.4;
 }
 
@@ -185,40 +183,40 @@ a.btn-for-cards-second:hover{
   height: auto;
 }
 
-.shadow-effect{
-  box-shadow: 10px 10px rgb(15,191,191);
+.shadow-effect {
+  box-shadow: 10px 10px rgb(15, 191, 191);
 }
 
-.shadow-effect-two{
-  box-shadow: 10px 10px rgb(242,62,46);
+.shadow-effect-two {
+  box-shadow: 10px 10px rgb(242, 62, 46);
 }
 
-.bottom-decoration{
-  border-bottom: 6px dashed rgb(242,62,46);
+.bottom-decoration {
+  border-bottom: 6px dashed rgb(242, 62, 46);
 }
 
-.list-drop-down{
-   display: block;
-   list-style-type: none;
-   padding: 0;
+.list-drop-down {
+  display: block;
+  list-style-type: none;
+  padding: 0;
 }
 
-.list-type{
-line-height: 1.5;
-display: block;
-text-align: center;
-padding: 10px;
-border-radius: 5px;
-color: rgb(255,255,255);
-background-color: rgb(242,62,46);
-animation-name: animateIn;
-animation-duration: 350ms;
-animation-delay: calc(var(--animation-order) * 100ms);
-animation-fill-mode: both;
-animation-timing-function: ease-in-out;
+.list-type {
+  line-height: 1.5;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(242, 62, 46);
+  animation-name: animateIn;
+  animation-duration: 350ms;
+  animation-delay: calc(var(--animation-order) * 100ms);
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
 }
 
-.list-type + .list-type{
+.list-type + .list-type {
   margin-top: 10px;
 }
 
@@ -232,145 +230,144 @@ animation-timing-function: ease-in-out;
   }
 }
 
-.btn-wrapper{
+.btn-wrapper {
   margin: 0 auto;
 }
-.btn-for-othersight{
-  background-color:rgb(15,191,191);
+.btn-for-othersight {
+  background-color: rgb(15, 191, 191);
   width: 300px;
-  color: rgb(255,255,255);
+  color: rgb(255, 255, 255);
   text-decoration: none;
-  font-family: 'Allerta Stencil', sans-serif;
+  font-family: "Allerta Stencil", sans-serif;
   text-align: center;
   padding: 10px;
   border-radius: 5px;
 }
 
-.btn-for-othersight:hover{
-  background-color:rgb(255,255,255);
-  color: rgb(15,191,191);
-  border: 3px dashed  rgb(15,191,191);
+.btn-for-othersight:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(15, 191, 191);
+  border: 3px dashed rgb(15, 191, 191);
   text-decoration: none;
- 
 }
 
 /*night time page*/
-.sight-header-night{
+.sight-header-night {
   font-size: 8vmin;
   text-align: center;
-  font-family: 'Pacifico', cursive;
-  color: rgb(242,168,29);
+  font-family: "Pacifico", cursive;
+  color: rgb(242, 168, 29);
   line-height: 1.4;
 }
 
-.subhead-night{
+.subhead-night {
   font-size: 5vmin;
   text-align: center;
-  font-family: 'Pacifico', cursive;
-  color: rgb(242,168,29);
+  font-family: "Pacifico", cursive;
+  color: rgb(242, 168, 29);
   line-height: 1.4;
 }
 
-.shadow-effect-night{
-  box-shadow: 10px 10px rgb(242,168,29);
+.shadow-effect-night {
+  box-shadow: 10px 10px rgb(242, 168, 29);
 }
 
-.shadow-effect-two-night{
-  box-shadow: 10px 10px rgb(164,78,166);
+.shadow-effect-two-night {
+  box-shadow: 10px 10px rgb(164, 78, 166);
 }
 
-.sight-header-two-night{
+.sight-header-two-night {
   font-size: 9vmin;
-  font-family: 'Pacifico', cursive;
-  color: rgb(164,78,166);
+  font-family: "Pacifico", cursive;
+  color: rgb(164, 78, 166);
   line-height: 1.4;
 }
 
-.bottom-decoration-night{
-  border-bottom: 6px dashed rgb(242,168,29);
+.bottom-decoration-night {
+  border-bottom: 6px dashed rgb(242, 168, 29);
 }
 
-.list-type-night{
-line-height: 1.5;
-display: block;
-text-align: center;
-padding: 10px;
-border-radius: 5px;
-color: rgb(255,255,255);
-background-color: rgb(242,168,29);
-animation-name: animateIn;
-animation-duration: 350ms;
-animation-delay: calc(var(--animation-order) * 100ms);
-animation-fill-mode: both;
-animation-timing-function: ease-in-out;
+.list-type-night {
+  line-height: 1.5;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(242, 168, 29);
+  animation-name: animateIn;
+  animation-duration: 350ms;
+  animation-delay: calc(var(--animation-order) * 100ms);
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
 }
 
-.list-type-night + .list-type-night{
+.list-type-night + .list-type-night {
   margin-top: 10px;
 }
 
-.btn-for-othersight-night{
-  background-color:rgb(164,78,166);
+.btn-for-othersight-night {
+  background-color: rgb(164, 78, 166);
   width: 300px;
-  color: rgb(255,255,255);
+  color: rgb(255, 255, 255);
   text-decoration: none;
-  font-family: 'Allerta Stencil', sans-serif;
+  font-family: "Allerta Stencil", sans-serif;
   text-align: center;
   padding: 10px;
   border-radius: 5px;
 }
 
-.btn-for-othersight-night:hover{
-  background-color:rgb(255,255,255);
-  color: rgb(164,78,166);
-  border: 3px dashed  rgb(164,78,166);
+.btn-for-othersight-night:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(164, 78, 166);
+  border: 3px dashed rgb(164, 78, 166);
   text-decoration: none;
 }
 
-  /*Footer Styling*/
+/*Footer Styling*/
 
 footer {
-    display: flex !important;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    font-family: 'Allerta Stencil';
-    background-color: #A44EA6;
- }
- 
- footer nav {
-   display: flex;
- }
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Allerta Stencil";
+  background-color: #a44ea6;
+}
 
- /*Icon styling*/
- .icon-link {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   font-size: 25px;
-   width: 50px;
-   height: 50px;
-   margin: 5px 2px;
-   border-radius: 50%;
- }
+footer nav {
+  display: flex;
+}
 
- .icon-link:hover {
-   text-decoration: none;
-   opacity: 0.7;
- }
+/*Icon styling*/
+.icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  width: 50px;
+  height: 50px;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
 
- .icon-link i {
-   color: white;
- }
+.icon-link:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
 
- .facebook {
-   background: #3B5998;
- }
+.icon-link i {
+  color: white;
+}
 
- .twitter {
-   background: #55ACEE;
- }
+.facebook {
+  background: #3b5998;
+}
 
- .instagram {
-   background:#FF4D7E;
- }
+.twitter {
+  background: #55acee;
+}
+
+.instagram {
+  background: #ff4d7e;
+}

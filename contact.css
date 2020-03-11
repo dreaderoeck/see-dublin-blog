@@ -1,49 +1,166 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Pacifico&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Allerta+Stencil|Open+Sans|Pacifico&display=swap");
 
-#jumbotron {
-  background-image: url(https://www.wevfree.org/hp_wordpress/wp-content/uploads/2015/11/My-Image3.png?1448433354018/1400/900);
+/*
+colours for site
+#F29BAB = Pink
+#A44EA6 = Purple
+#0FBFBF = Tile
+#F2A81D = Light Orange
+#F23E2E = Burnt Orange
+*/
+
+.jumbotron {
+  background-image: url(images/contact-image.jpg);
+  max-width: 100%;
+  height: 580px !important;
+  border-radius: 0px !important;
+  background-position: center top;
   background-size: cover;
-  background-position: center;
-  height: 400px;
+}
+
+.jumbotron h1 {
+  color: red;
+  font-size: 11vw;
+  font-family: "Allerta Stencil";
+  border: 10px dashed #f2a81d;
+  margin-top: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.form-container {
+  width: 100%;
+  border-bottom: 5px dashed #f2a81d;
+}
+
+.form-container h2 {
+  color: blue;
+  font-family: "Pacifico", cursive;
+  font-size: 8vw;
+}
+
+.form-container .subtitle {
+  font-size: 1.8vw;
+}
+
+.form-container .form-control {
+  background: #f2a81d;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+input.form-control::placeholder {
+  color: rgb(255, 255, 255);
+}
+
+textarea.form-control::placeholder {
+  color: rgb(255, 255, 255);
+}
+
+input.form-control.submit {
+  background: blue;
+  border-color: transparent;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+input[type="submit"] {
+  color: rgb(255, 255, 255);
+}
+input.form-control.submit:hover {
+  color: blue;
+  background-color: rgb(255, 255, 255);
+  border: 5px dashed blue;
+  cursor: pointer;
+}
+
+.location-title {
+  color: blue;
+  font-family: "Pacifico", cursive;
+}
+
+.team-title {
+  color: #f2a81d;
+  font-family: "Pacifico", cursive;
+}
+
+.shadow-effect-three {
+  box-shadow: 10px 10px blue;
+}
+
+.card {
+  border-radius: 0px !important;
+  border: 0px !important;
+  box-shadow: 8px 8px #f2a81d;
+  height: 320px;
+}
+
+.card-img-top {
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+}
+
+a.github-link {
+  font-family: "Allerta Stencil";
+  color: #f2a81d;
+}
+
+a.github-link:hover {
+  color: #f23e2e;
+  text-decoration: none;
+}
+
+.embed-responsive {
+  height: 320px !important;
 }
 
 /*head section and nav styling*/
-body{
-  font-family: 'Open Sans', sans-serif; 
+body {
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
 }
-h1{
-  color: #F2A81D;
+h1 {
+  color: #f2a81d;
   font-size: 11vmin;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
 }
-p{
+p {
   line-height: 1.8;
 }
 header {
-  font-family: 'Allerta Stencil', sans-serif;
+  font-family: "Allerta Stencil", sans-serif;
 }
 /*colours overwritten on nav*/
-.bg-dark{
-background-color: #F23E2E !important;
+.bg-dark {
+  background-color: #f23e2e !important;
 }
-a.nav-link{
-  color: #8DDAEB !important;
+a.nav-link {
+  color: rgb(255, 255, 255) !important;
 }
-a.nav-link:hover{
+a.nav-link:hover {
   color: blue !important;
 }
 .navbar-dark .navbar-brand {
-  color: #FF79EB;
+  color: #ff79eb;
   font-size: 2em;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
 }
 
-.btn{
-    background-color: #F44336; 
+.btn {
   border: none;
-  color:#8DDAEB;
+  color: rgb(255, 255, 255);
+  background-color: #f23e2e !important;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -51,126 +168,42 @@ a.nav-link:hover{
   font-size: 20px;
   margin: 4px 2px;
   cursor: pointer;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
 }
-  footer {
-     display: flex !important;
-     flex-direction: row;
-     justify-content: space-between;
-     align-items: center;
-     font-family: 'Allerta Stencil';
-     background-color: #A44EA6;
-  }
-  footer nav {
-    display: flex;
-  }
-  .icon-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 25px;
-    width: 50px;
-    height: 50px;
-    margin: 5px 2px;
-    border-radius: 50%;
-  }
-  .icon-link:hover {
-    text-decoration: none;
-    opacity: 0.7;
-  }
-  .icon-link i {
-    color: white;
-  }
-  .facebook {
-    background: #3B5998;
-  }
-  .twitter {
-    background: #55ACEE;
-  }
-  .instagram {
-    background:#FF4D7E;
-  }
-
-.form-style-6{
-	font: 95% Arial, Helvetica, sans-serif;
-	max-width: 400px;
-	margin: 10px auto;
-	padding: 16px;
-	background: #F7F7F7;
+footer {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Allerta Stencil";
+  background-color: #a44ea6;
 }
-.form-style-6 h1{
-	background: #43D1AF;
-	padding: 20px 0;
-	font-size: 140%;
-	font-weight: 300;
-	text-align: center;
-	color: #fff;
-	margin: -16px -16px 16px -16px;
+footer nav {
+  display: flex;
 }
-.form-style-6 input[type="text"],
-.form-style-6 input[type="date"],
-.form-style-6 input[type="datetime"],
-.form-style-6 input[type="email"],
-.form-style-6 input[type="number"],
-.form-style-6 input[type="search"],
-.form-style-6 input[type="time"],
-.form-style-6 input[type="url"],
-.form-style-6 textarea,
-.form-style-6 select 
-{
-	-webkit-transition: all 0.30s ease-in-out;
-	-moz-transition: all 0.30s ease-in-out;
-	-ms-transition: all 0.30s ease-in-out;
-	-o-transition: all 0.30s ease-in-out;
-	outline: none;
-	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	width: 100%;
-	background: #fff;
-	margin-bottom: 4%;
-	border: 1px solid #ccc;
-	padding: 3%;
-	color: #555;
-	font: 95% Arial, Helvetica, sans-serif;
+.icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  width: 50px;
+  height: 50px;
+  margin: 5px 2px;
+  border-radius: 50%;
 }
-.form-style-6 input[type="text"]:focus,
-.form-style-6 input[type="date"]:focus,
-.form-style-6 input[type="datetime"]:focus,
-.form-style-6 input[type="email"]:focus,
-.form-style-6 input[type="number"]:focus,
-.form-style-6 input[type="search"]:focus,
-.form-style-6 input[type="time"]:focus,
-.form-style-6 input[type="url"]:focus,
-.form-style-6 textarea:focus,
-.form-style-6 select:focus
-{
-	box-shadow: 0 0 5px #43D1AF;
-	padding: 3%;
-	border: 1px solid #43D1AF;
+.icon-link:hover {
+  text-decoration: none;
+  opacity: 0.7;
 }
-
-.form-style-6 input[type="submit"],
-.form-style-6 input[type="button"]{
-	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	width: 100%;
-	padding: 4%;
-	background: #43D1AF;
-	border-bottom: 2px solid #30C29E;
-	border-top-style: none;
-	border-right-style: none;
-	border-left-style: none;	
-	color: #fff;
+.icon-link i {
+  color: white;
 }
-.form-style-6 input[type="submit"]:hover,
-.form-style-6 input[type="button"]:hover{
-	background: #2EBC99;
+.facebook {
+  background: #3b5998;
 }
-
-.jumbotron {
-background-image: url("https://imgur.com/3lY2Rgp");
-background-size: cover;
-height: 100%;}
-
+.twitter {
+  background: #55acee;
+}
+.instagram {
+  background: #ff4d7e;
+}
